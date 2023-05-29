@@ -17,10 +17,10 @@ struct ContentView: View {
                 VStack(spacing: 20) {
                     OrderTypeGridView()
                     CarouselTabView()
+                    StoresContainerView()
                 }
             }
         }
-        
     }
 }
 
